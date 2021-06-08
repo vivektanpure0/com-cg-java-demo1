@@ -11,7 +11,7 @@ public class DoWhileDemo {
 			num++;
 		} while (num <= 10);
 
-		System.out.println("end");
+		System.out.println("end"); //SOP Statement
 	}
 		
 	}
