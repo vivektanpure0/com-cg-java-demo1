@@ -7,7 +7,7 @@ public class AddTwoNumbers {
 
 		int num2 = 50;
 
-		int num3 = num1 + num2; //addition
+		int num3 = num1 + num2; 
 
 		System.out.println(num3);
 
