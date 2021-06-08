@@ -5,7 +5,7 @@ public class AddTwoNumbers {
 
 		int num1 = 5;
 
-		int num2 = 90;
+		int num2 = 50;
 
 		int num3 = num1 + num2;
 
