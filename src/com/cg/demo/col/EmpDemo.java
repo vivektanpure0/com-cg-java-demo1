@@ -13,7 +13,7 @@ public class EmpDemo {
 		
 		empList.add(emp);
 		empList.add(new Employee());
-		empList.add(new Employee(101, "ABC", 10.5));
+		empList.add(new Employee(401, "ABC", 100.5));
 //		empList.add("ABC");
 //		empList.add(delete);
 		
