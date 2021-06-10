@@ -1,5 +1,4 @@
 package com.cg.demo.col;
-
 import java.util.ArrayList;
 
 public class CollectionDemo3 {
