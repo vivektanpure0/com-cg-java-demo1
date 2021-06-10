@@ -15,7 +15,7 @@ public class GenericDemo {
 		Delete delete = new Delete();
 		
 		markList.add(98);
-		markList.add(5045);
+		markList.add(50.45);
 		markList.add("ABC");
 		markList.add(delete);
 		
