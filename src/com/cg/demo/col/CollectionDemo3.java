@@ -8,7 +8,7 @@ public class CollectionDemo3 {
 		al.add(50);
 		al.add(30.05);
 		al.add("Vivek");
-		al.add(new Integer(20));
+		al.add(new Integer(100));
 		System.out.println(al);
 		
 			
