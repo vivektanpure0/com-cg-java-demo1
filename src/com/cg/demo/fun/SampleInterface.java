@@ -1,6 +1,6 @@
 package com.cg.demo.fun;
 
-public abstract class SampleInterface {
+public abstract  class SampleInterface {
 	public abstract void anAbstractMethod();
 
 	public abstract void anotherAbstractMethod();
@@ -13,12 +13,12 @@ public abstract class SampleInterface {
 		System.out.println("anotherStaticMethod");
 	}
 
-	public default void aDefaultMethod() {
-		System.out.println("aDefaultMethod");
-	}
-
-	public default void anotherDefaultMethod() {
-		System.out.println("anotherDefaultMethod");
-	}
+//	public default void aDefaultMethod() {
+//		System.out.println("aDefaultMethod");
+//	}
+//
+//	public default void anotherDefaultMethod() {
+//		System.out.println("anotherDefaultMethod");
+//	}
 
 }

@@ -19,8 +19,8 @@ public class SampleDemo {
 			};
 			obj.anAbstractMethod();
 			obj.anotherAbstractMethod();
-			obj.aDefaultMethod();
-			obj.anotherDefaultMethod();
+//			obj.aDefaultMethod();
+//			obj.anotherDefaultMethod();
 			SampleInterface.aStaticMethod();
 			SampleInterface.anotherStaticMethod();
 
