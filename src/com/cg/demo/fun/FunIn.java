@@ -5,7 +5,7 @@ package com.cg.demo.fun;
 //which may contain one or more OTHER methods 
 
 @FunctionalInterface
-public abstract class FunIn {
-	public abstract boolean functionalMethod(int i);
+public class FunIn {
+	public abstract boolean functionalMethod (int i);
 //	public abstract void anotherFunctionalMethod(); // CE for FI 
 }
