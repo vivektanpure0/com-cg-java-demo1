@@ -46,9 +46,5 @@ package com.cg.demo.multi;
 //			obj3.printLoop();
 		}
 
-		private static char[] getName() {
-			// TODO Auto-generated method stub
-			return null;
-		}
-
+		
 	}
