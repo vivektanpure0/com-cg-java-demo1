@@ -19,13 +19,14 @@ package com.cg.demo.multi;
 			this.printLoop();
 		}
 
-		public static void main(String[] args) {
+		public static void main(String[] args) throws InterruptedException {
 
 			Thread obj = new Thread(new ThreadDemo2());
 			Thread obj2 = new Thread(new ThreadDemo2());
 			Thread obj3 = new Thread(new ThreadDemo2());
 
 			obj.start();
+			obj.join();
 			obj2.start();
 			obj3.start();
 

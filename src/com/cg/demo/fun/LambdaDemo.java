@@ -4,7 +4,7 @@ public class LambdaDemo {
 
 	public static void main(String[] args) {
 
-		MyInt obj = () -> {
+		MyInt obj = ()->{
 			System.out.println("absMethod ");
 		};
 
