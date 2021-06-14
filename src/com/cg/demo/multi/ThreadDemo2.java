@@ -27,14 +27,28 @@ package com.cg.demo.multi;
 
 			obj.start();
 			obj.join();
-			obj3.setName("ABC");
-			obj3.setPriority(5);
+//			System.out.println(obj.getName());
+			obj.setName("MyThread1");
+			System.out.println(obj.getName());
+			System.out.println(obj2.getName());
+			System.out.println(obj3.getName());
+			obj.setPriority(5);
+			obj2.setPriority(2);
+			obj3.setPriority(7);
+			System.out.println(obj.getPriority());
+			System.out.println(obj2.getPriority());
+			System.out.println(obj3.getPriority());
 			obj2.start();
 			obj3.start();
 
 //	 		obj.printLoop();
 //			obj2.printLoop();
 //			obj3.printLoop();
+		}
+
+		private static char[] getName() {
+			// TODO Auto-generated method stub
+			return null;
 		}
 
 	}
