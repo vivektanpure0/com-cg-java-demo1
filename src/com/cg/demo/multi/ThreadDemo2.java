@@ -27,6 +27,8 @@ package com.cg.demo.multi;
 
 			obj.start();
 			obj.join();
+			obj3.setName("ABC");
+			obj3.setPriority(5);
 			obj2.start();
 			obj3.start();
 
