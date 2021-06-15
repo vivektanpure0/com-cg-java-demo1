@@ -1,10 +1,13 @@
 package com.cg.demo.fun;
 
-public class FunIn {
+// functional interface - 
+// which contains only one abstract method 
+// which may contain one or more OTHER methods 
 
-	public void functionalMethod(int i) {
-		// TODO Auto-generated method stub
-		
-	}
+@FunctionalInterface
+public interface FunIn {
+
+	public abstract boolean functionalMethod(int i);
+//	public abstract void anotherFunctionalMethod(); // CE for FI 
 
 }

@@ -5,7 +5,7 @@ public class FunDemo {
 	public static void main(String[] args) {
 
 		FunIn funIn = (int i) -> {
-			System.out.println("functionalMethod");
+			System.out.println("functional Method");
 			return false;
 		};
 
