@@ -10,8 +10,8 @@ public enum State {
 		this.stateCode = stateCode;
 		System.out.println(stateCode);
 		
-	
 	}
+	
 	public String getstateCode() {
 		return stateCode;
 	
