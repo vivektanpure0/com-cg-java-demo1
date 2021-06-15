@@ -18,11 +18,16 @@ public class DateTimeDemo {
 
 		LocalDate iDay = LocalDate.of(1947, 8, 15);
 		System.out.println(iDay.toString());
+		
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+		LocalDate myDate = LocalDate.parse("1960-05-01", formatter);
+		System.out.println(myDate.toString());
+
 
 //		LocalDate myDate = LocalDate.parse("1947-08-15");
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM-dd-yyyy");
-		LocalDate myDate = LocalDate.parse("08-15-1947", formatter);
-		System.out.println(myDate.toString());
+		DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("MM-dd-yyyy");
+		LocalDate myDate1 = LocalDate.parse("08-15-1947", formatter1);
+		System.out.println(myDate1.toString());
 
 		// formatting date
 		// compare two dates and find the duration
