@@ -7,6 +7,15 @@ public class App {
 		Day today = Day.TUESDAY;
 		System.out.println(today);
 		
+		State myState = State.KERALA;
+		System.out.println(myState);
+
+		for (State st : State.values()) {
+			System.out.println(st);
+			
+		}
+		
+		
 	}
 
 }
