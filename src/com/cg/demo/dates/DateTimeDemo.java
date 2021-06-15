@@ -41,11 +41,15 @@ public class DateTimeDemo {
 				System.out.println("Expiry Date 1:" + expDate.toString());
 				System.out.println("Expiry Date 2:" + exp2Date.toString());
 				
+				LocalDate expDate3 = manDate.minusDays(180);
+				System.out.println("Expiry date 3: " + expDate3.toString());
+
+				LocalDate date1 = LocalDate.now();
+				LocalDate date2 = LocalDate.of(2021, 12, 31);
+//				System.out.println(date1.datesUntil(date2).toString());
+				System.out.println(date2.compareTo(date1));
 			
 
-		// formatting date
-		// compare two dates and find the duration
-		// add / subtract duration to date
 
 	}
 
