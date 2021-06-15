@@ -1,6 +1,7 @@
 package com.cg.demo.dates;
 
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class DateTimeDemo {
@@ -29,6 +30,18 @@ public class DateTimeDemo {
 		DateTimeFormatter formatter1 = DateTimeFormatter.ofPattern("MM-dd-yyyy");
 		LocalDate myDate1 = LocalDate.parse("08-15-1947", formatter1);
 		System.out.println(myDate1.toString());
+		
+		LocalTime lt = LocalTime.now();
+				System.out.println(lt);
+				
+				LocalDate manDate = LocalDate.now();
+				LocalDate expDate = manDate.plusDays(180);
+				LocalDate exp2Date = manDate.plusMonths(6);
+				System.out.println("Manufacturing Date:" + manDate.toString());
+				System.out.println("Expiry Date 1:" + expDate.toString());
+				System.out.println("Expiry Date 2:" + exp2Date.toString());
+				
+			
 
 		// formatting date
 		// compare two dates and find the duration
