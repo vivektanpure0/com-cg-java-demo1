@@ -2,21 +2,35 @@ package com.cg.demo.enumDemo;
 
 public class App {
 	public static void main(String[] args) {
-		System.out.println("Start");
+		Day day = Day.MONDAY;
+		System.out.println(day);
 		
-		Day today = Day.TUESDAY;
-		System.out.println(today);
-		
-		State myState = State.KERALA;
-		System.out.println(myState);
+		State MH = State.MAHARASHTRA;
+		System.out.println(MH);
 
-		for (State st : State.values()) {
-			System.out.println(st);
-			
+		for (State state : State.values()) {
+			System.out.println(state);
 		}
-		
-		System.out.println(myState.getstateCode());
-		
-	}
+		State myState = State.MAHARASHTRA;
+		System.out.println(myState);
+		System.out.println(myState.getStateCode());
 
+		String language = "Kannada";
+		State theState;
+
+		switch (language) {
+		case "Marathi":
+			theState = State.MAHARASHTRA;
+			break;
+		case "Kannada":
+			theState = State.KARNATAKA;
+			break;
+		case "Telugu":
+			theState = State.TELANGANA;
+			break;
+		default:
+			theState = State.KERALA;
+		}
+		System.out.println(theState);
+	}
 }

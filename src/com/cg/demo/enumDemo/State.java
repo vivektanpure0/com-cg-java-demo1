@@ -8,12 +8,9 @@ public enum State {
 
 	State(String stateCode) {
 		this.stateCode = stateCode;
-		System.out.println(stateCode);
-		
 	}
-	
-	public String getstateCode() {
+
+	public String getStateCode() {
 		return stateCode;
-	
-}
+	}
 }
