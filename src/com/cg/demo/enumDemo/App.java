@@ -15,6 +15,7 @@ public class App {
 			
 		}
 		
+		System.out.println(myState.getstateCode());
 		
 	}
 
