@@ -19,9 +19,10 @@ public class DateTimeDemo {
 		LocalDate iDay = LocalDate.of(1947, 8, 15);
 		System.out.println(iDay.toString());
 		
-		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
-		LocalDate myDate = LocalDate.parse("1960-05-01", formatter);
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM-dd-yyyy");
+		LocalDate myDate = LocalDate.parse("05-01-1960", formatter);
 		System.out.println(myDate.toString());
+		System.out.println(myDate.format(formatter));
 
 
 //		LocalDate myDate = LocalDate.parse("1947-08-15");
