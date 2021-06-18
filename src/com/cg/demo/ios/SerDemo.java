@@ -19,7 +19,7 @@ public class SerDemo {
 		System.out.println("Enter file name:");
 
 //		String file = sc.next();
-		String file = "E:\\vaman\\emp.ser";
+		String file = "F:\\Vivek\\dt";
 
 		FileOutputStream fos = null;
 		ObjectOutputStream oos = null;
