@@ -9,7 +9,7 @@ public class App2 {
 		Statement stmt = null;
 		try {
 			Class.forName("org.postgresql.Driver");
-			c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/dvdrental", "postgres", "root");
+			c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/dvdrental", "postgres", "13061997");
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.err.println(e.getClass().getName() + ": " + e.getMessage());
